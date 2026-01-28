@@ -1,0 +1,21 @@
+
+> cashier-workspace@1.0.0 dev:cashier
+> npm --workspace=cashier run dev
+
+
+> cashier-h5@1.0.0 dev
+> vite
+
+error when starting dev server:
+Error: listen EPERM: operation not permitted 127.0.0.1:8080
+    at Server.setupListenHandle [as _listen2] (node:net:1886:21)
+    at listenInCluster (node:net:1965:12)
+    at doListen (node:net:2139:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+npm error Lifecycle script `dev` failed with error:
+npm error code 1
+npm error path /Users/huoshijie/code/cashier-system/cashier
+npm error workspace cashier-h5@1.0.0
+npm error location /Users/huoshijie/code/cashier-system/cashier
+npm error command failed
+npm error command sh -c vite

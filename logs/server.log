@@ -1,0 +1,436 @@
+
+> cashier-workspace@1.0.0 dev:server
+> npm --workspace=server run start:dev
+
+
+> cashier-server@1.0.0 start:dev
+> nest start --watch
+
+[2J[3J[H[[90m2:15:41 AM[0m] Starting compilation in watch mode...
+
+[[90m2:15:42 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m2:15:43 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m2:15:43 AM[0m] Found 0 errors. Watching for file changes.
+
+[Redis] connection error: 
+[Redis] initial connect failed: Connection is closed.
+[Redis] connection error: 
+[Redis] initial connect failed: Connection is closed.
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[32m[Nest] 76033  - [39m01/28/2026, 2:20:38 AM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 76033  - [39m01/28/2026, 2:20:38 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 76033  - [39m01/28/2026, 2:20:38 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 76033  - [39m01/28/2026, 2:20:38 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPassportModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 76033  - [39m01/28/2026, 2:20:38 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 76033  - [39m01/28/2026, 2:20:38 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDiscoveryModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 76033  - [39m01/28/2026, 2:20:38 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 76033  - [39m01/28/2026, 2:20:38 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 76033  - [39m01/28/2026, 2:20:38 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mScheduleModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 76033  - [39m01/28/2026, 2:20:38 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mInfraModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 76033  - [39m01/28/2026, 2:20:38 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 76033  - [39m01/28/2026, 2:20:38 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mWinstonModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 76033  - [39m01/28/2026, 2:20:38 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[31m[Nest] 76033  - [39m01/28/2026, 2:20:38 AM [31m  ERROR[39m [38;5;3m[MongooseModule] [39m[31mUnable to connect to the database. Retrying (1)...[39m
+MongooseServerSelectionError: connect EPERM ::1:27017 - Local (:::0), connect EPERM 127.0.0.1:27017 - Local (0.0.0.0:0)
+    at _handleConnectionErrors (/Users/huoshijie/code/cashier-system/node_modules/mongoose/lib/connection.js:1169:11)
+    at NativeConnection.asPromise (/Users/huoshijie/code/cashier-system/node_modules/mongoose/lib/connection.js:1639:11)
+    at async /Users/huoshijie/code/cashier-system/node_modules/@nestjs/mongoose/dist/mongoose-core.module.js:65:112
+[31m[Nest] 76033  - [39m01/28/2026, 2:20:38 AM [31m  ERROR[39m [38;5;3m[MongooseModule] [39m[31mUnable to connect to the database. Retrying (2)...[39m
+MongooseServerSelectionError: connect EPERM ::1:27017 - Local (:::0), connect EPERM 127.0.0.1:27017 - Local (0.0.0.0:0)
+    at _handleConnectionErrors (/Users/huoshijie/code/cashier-system/node_modules/mongoose/lib/connection.js:1169:11)
+    at NativeConnection.asPromise (/Users/huoshijie/code/cashier-system/node_modules/mongoose/lib/connection.js:1639:11)
+    at async /Users/huoshijie/code/cashier-system/node_modules/@nestjs/mongoose/dist/mongoose-core.module.js:65:112
+[31m[Nest] 76033  - [39m01/28/2026, 2:20:38 AM [31m  ERROR[39m [38;5;3m[MongooseModule] [39m[31mUnable to connect to the database. Retrying (3)...[39m
+MongooseServerSelectionError: connect EPERM ::1:27017 - Local (:::0), connect EPERM 127.0.0.1:27017 - Local (0.0.0.0:0)
+    at _handleConnectionErrors (/Users/huoshijie/code/cashier-system/node_modules/mongoose/lib/connection.js:1169:11)
+    at NativeConnection.asPromise (/Users/huoshijie/code/cashier-system/node_modules/mongoose/lib/connection.js:1639:11)
+    at async /Users/huoshijie/code/cashier-system/node_modules/@nestjs/mongoose/dist/mongoose-core.module.js:65:112
+[31m[Nest] 76033  - [39m01/28/2026, 2:20:38 AM [31m  ERROR[39m [38;5;3m[MongooseModule] [39m[31mUnable to connect to the database. Retrying (4)...[39m
+MongooseServerSelectionError: connect EPERM ::1:27017 - Local (:::0), connect EPERM 127.0.0.1:27017 - Local (0.0.0.0:0)
+    at _handleConnectionErrors (/Users/huoshijie/code/cashier-system/node_modules/mongoose/lib/connection.js:1169:11)
+    at NativeConnection.asPromise (/Users/huoshijie/code/cashier-system/node_modules/mongoose/lib/connection.js:1639:11)
+    at async /Users/huoshijie/code/cashier-system/node_modules/@nestjs/mongoose/dist/mongoose-core.module.js:65:112
+[31m[Nest] 76033  - [39m01/28/2026, 2:20:38 AM [31m  ERROR[39m [38;5;3m[MongooseModule] [39m[31mUnable to connect to the database. Retrying (5)...[39m
+MongooseServerSelectionError: connect EPERM ::1:27017 - Local (:::0), connect EPERM 127.0.0.1:27017 - Local (0.0.0.0:0)
+    at _handleConnectionErrors (/Users/huoshijie/code/cashier-system/node_modules/mongoose/lib/connection.js:1169:11)
+    at NativeConnection.asPromise (/Users/huoshijie/code/cashier-system/node_modules/mongoose/lib/connection.js:1639:11)
+    at async /Users/huoshijie/code/cashier-system/node_modules/@nestjs/mongoose/dist/mongoose-core.module.js:65:112
+[31m[Nest] 76033  - [39m01/28/2026, 2:20:38 AM [31m  ERROR[39m [38;5;3m[MongooseModule] [39m[31mUnable to connect to the database. Retrying (6)...[39m
+MongooseServerSelectionError: connect EPERM ::1:27017 - Local (:::0), connect EPERM 127.0.0.1:27017 - Local (0.0.0.0:0)
+    at _handleConnectionErrors (/Users/huoshijie/code/cashier-system/node_modules/mongoose/lib/connection.js:1169:11)
+    at NativeConnection.asPromise (/Users/huoshijie/code/cashier-system/node_modules/mongoose/lib/connection.js:1639:11)
+    at async /Users/huoshijie/code/cashier-system/node_modules/@nestjs/mongoose/dist/mongoose-core.module.js:65:112
+[31m[Nest] 76033  - [39m01/28/2026, 2:20:38 AM [31m  ERROR[39m [38;5;3m[MongooseModule] [39m[31mUnable to connect to the database. Retrying (7)...[39m
+MongooseServerSelectionError: connect EPERM ::1:27017 - Local (:::0), connect EPERM 127.0.0.1:27017 - Local (0.0.0.0:0)
+    at _handleConnectionErrors (/Users/huoshijie/code/cashier-system/node_modules/mongoose/lib/connection.js:1169:11)
+    at NativeConnection.asPromise (/Users/huoshijie/code/cashier-system/node_modules/mongoose/lib/connection.js:1639:11)
+    at async /Users/huoshijie/code/cashier-system/node_modules/@nestjs/mongoose/dist/mongoose-core.module.js:65:112
+[31m[Nest] 76033  - [39m01/28/2026, 2:20:38 AM [31m  ERROR[39m [38;5;3m[MongooseModule] [39m[31mUnable to connect to the database. Retrying (8)...[39m
+MongooseServerSelectionError: connect EPERM ::1:27017 - Local (:::0), connect EPERM 127.0.0.1:27017 - Local (0.0.0.0:0)
+    at _handleConnectionErrors (/Users/huoshijie/code/cashier-system/node_modules/mongoose/lib/connection.js:1169:11)
+    at NativeConnection.asPromise (/Users/huoshijie/code/cashier-system/node_modules/mongoose/lib/connection.js:1639:11)
+    at async /Users/huoshijie/code/cashier-system/node_modules/@nestjs/mongoose/dist/mongoose-core.module.js:65:112
+[31m[Nest] 76033  - [39m01/28/2026, 2:20:38 AM [31m  ERROR[39m [38;5;3m[MongooseModule] [39m[31mUnable to connect to the database. Retrying (9)...[39m
+MongooseServerSelectionError: connect EPERM ::1:27017 - Local (:::0), connect EPERM 127.0.0.1:27017 - Local (0.0.0.0:0)
+    at _handleConnectionErrors (/Users/huoshijie/code/cashier-system/node_modules/mongoose/lib/connection.js:1169:11)
+    at NativeConnection.asPromise (/Users/huoshijie/code/cashier-system/node_modules/mongoose/lib/connection.js:1639:11)
+    at async /Users/huoshijie/code/cashier-system/node_modules/@nestjs/mongoose/dist/mongoose-core.module.js:65:112
+[31m[Nest] 76033  - [39m01/28/2026, 2:20:38 AM [31m  ERROR[39m [38;5;3m[ExceptionHandler] [39m[31mconnect EPERM ::1:27017 - Local (:::0), connect EPERM 127.0.0.1:27017 - Local (0.0.0.0:0)[39m
+MongooseServerSelectionError: connect EPERM ::1:27017 - Local (:::0), connect EPERM 127.0.0.1:27017 - Local (0.0.0.0:0)
+    at _handleConnectionErrors (/Users/huoshijie/code/cashier-system/node_modules/mongoose/lib/connection.js:1169:11)
+    at NativeConnection.asPromise (/Users/huoshijie/code/cashier-system/node_modules/mongoose/lib/connection.js:1639:11)
+    at async /Users/huoshijie/code/cashier-system/node_modules/@nestjs/mongoose/dist/mongoose-core.module.js:65:112
+[2J[3J[H[[90m2:28:21 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m2:28:21 AM[0m] Found 0 errors. Watching for file changes.
+
+[Redis] connection error: 
+[Redis] initial connect failed: Connection is closed.
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[Redis] connection error: 
+[32m[Nest] 78029  - [39m01/28/2026, 2:33:16 AM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 78029  - [39m01/28/2026, 2:33:16 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 78029  - [39m01/28/2026, 2:33:16 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 78029  - [39m01/28/2026, 2:33:16 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPassportModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 78029  - [39m01/28/2026, 2:33:16 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 78029  - [39m01/28/2026, 2:33:16 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDiscoveryModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 78029  - [39m01/28/2026, 2:33:16 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 78029  - [39m01/28/2026, 2:33:16 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 78029  - [39m01/28/2026, 2:33:16 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mScheduleModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 78029  - [39m01/28/2026, 2:33:16 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mInfraModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 78029  - [39m01/28/2026, 2:33:16 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 78029  - [39m01/28/2026, 2:33:16 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mWinstonModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 78029  - [39m01/28/2026, 2:33:16 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[31m[Nest] 78029  - [39m01/28/2026, 2:33:16 AM [31m  ERROR[39m [38;5;3m[MongooseModule] [39m[31mUnable to connect to the database. Retrying (1)...[39m
+MongooseServerSelectionError: connect EPERM ::1:27017 - Local (:::0), connect EPERM 127.0.0.1:27017 - Local (0.0.0.0:0)
+    at _handleConnectionErrors (/Users/huoshijie/code/cashier-system/node_modules/mongoose/lib/connection.js:1169:11)
+    at NativeConnection.asPromise (/Users/huoshijie/code/cashier-system/node_modules/mongoose/lib/connection.js:1639:11)
+    at async /Users/huoshijie/code/cashier-system/node_modules/@nestjs/mongoose/dist/mongoose-core.module.js:65:112
+[31m[Nest] 78029  - [39m01/28/2026, 2:33:16 AM [31m  ERROR[39m [38;5;3m[MongooseModule] [39m[31mUnable to connect to the database. Retrying (2)...[39m
+MongooseServerSelectionError: connect EPERM ::1:27017 - Local (:::0), connect EPERM 127.0.0.1:27017 - Local (0.0.0.0:0)
+    at _handleConnectionErrors (/Users/huoshijie/code/cashier-system/node_modules/mongoose/lib/connection.js:1169:11)
+    at NativeConnection.asPromise (/Users/huoshijie/code/cashier-system/node_modules/mongoose/lib/connection.js:1639:11)
+    at async /Users/huoshijie/code/cashier-system/node_modules/@nestjs/mongoose/dist/mongoose-core.module.js:65:112
+[31m[Nest] 78029  - [39m01/28/2026, 2:33:16 AM [31m  ERROR[39m [38;5;3m[MongooseModule] [39m[31mUnable to connect to the database. Retrying (3)...[39m
+MongooseServerSelectionError: connect EPERM ::1:27017 - Local (:::0), connect EPERM 127.0.0.1:27017 - Local (0.0.0.0:0)
+    at _handleConnectionErrors (/Users/huoshijie/code/cashier-system/node_modules/mongoose/lib/connection.js:1169:11)
+    at NativeConnection.asPromise (/Users/huoshijie/code/cashier-system/node_modules/mongoose/lib/connection.js:1639:11)
+    at async /Users/huoshijie/code/cashier-system/node_modules/@nestjs/mongoose/dist/mongoose-core.module.js:65:112
+[31m[Nest] 78029  - [39m01/28/2026, 2:33:16 AM [31m  ERROR[39m [38;5;3m[MongooseModule] [39m[31mUnable to connect to the database. Retrying (4)...[39m
+MongooseServerSelectionError: connect EPERM ::1:27017 - Local (:::0), connect EPERM 127.0.0.1:27017 - Local (0.0.0.0:0)
+    at _handleConnectionErrors (/Users/huoshijie/code/cashier-system/node_modules/mongoose/lib/connection.js:1169:11)
+    at NativeConnection.asPromise (/Users/huoshijie/code/cashier-system/node_modules/mongoose/lib/connection.js:1639:11)
+    at async /Users/huoshijie/code/cashier-system/node_modules/@nestjs/mongoose/dist/mongoose-core.module.js:65:112
+[31m[Nest] 78029  - [39m01/28/2026, 2:33:16 AM [31m  ERROR[39m [38;5;3m[MongooseModule] [39m[31mUnable to connect to the database. Retrying (5)...[39m
+MongooseServerSelectionError: connect EPERM ::1:27017 - Local (:::0), connect EPERM 127.0.0.1:27017 - Local (0.0.0.0:0)
+    at _handleConnectionErrors (/Users/huoshijie/code/cashier-system/node_modules/mongoose/lib/connection.js:1169:11)
+    at NativeConnection.asPromise (/Users/huoshijie/code/cashier-system/node_modules/mongoose/lib/connection.js:1639:11)
+    at async /Users/huoshijie/code/cashier-system/node_modules/@nestjs/mongoose/dist/mongoose-core.module.js:65:112
+[31m[Nest] 78029  - [39m01/28/2026, 2:33:16 AM [31m  ERROR[39m [38;5;3m[MongooseModule] [39m[31mUnable to connect to the database. Retrying (6)...[39m
+MongooseServerSelectionError: connect EPERM ::1:27017 - Local (:::0), connect EPERM 127.0.0.1:27017 - Local (0.0.0.0:0)
+    at _handleConnectionErrors (/Users/huoshijie/code/cashier-system/node_modules/mongoose/lib/connection.js:1169:11)
+    at NativeConnection.asPromise (/Users/huoshijie/code/cashier-system/node_modules/mongoose/lib/connection.js:1639:11)
+    at async /Users/huoshijie/code/cashier-system/node_modules/@nestjs/mongoose/dist/mongoose-core.module.js:65:112
+[31m[Nest] 78029  - [39m01/28/2026, 2:33:16 AM [31m  ERROR[39m [38;5;3m[MongooseModule] [39m[31mUnable to connect to the database. Retrying (7)...[39m
+MongooseServerSelectionError: connect EPERM ::1:27017 - Local (:::0), connect EPERM 127.0.0.1:27017 - Local (0.0.0.0:0)
+    at _handleConnectionErrors (/Users/huoshijie/code/cashier-system/node_modules/mongoose/lib/connection.js:1169:11)
+    at NativeConnection.asPromise (/Users/huoshijie/code/cashier-system/node_modules/mongoose/lib/connection.js:1639:11)
+    at async /Users/huoshijie/code/cashier-system/node_modules/@nestjs/mongoose/dist/mongoose-core.module.js:65:112
+[31m[Nest] 78029  - [39m01/28/2026, 2:33:16 AM [31m  ERROR[39m [38;5;3m[MongooseModule] [39m[31mUnable to connect to the database. Retrying (8)...[39m
+MongooseServerSelectionError: connect EPERM ::1:27017 - Local (:::0), connect EPERM 127.0.0.1:27017 - Local (0.0.0.0:0)
+    at _handleConnectionErrors (/Users/huoshijie/code/cashier-system/node_modules/mongoose/lib/connection.js:1169:11)
+    at NativeConnection.asPromise (/Users/huoshijie/code/cashier-system/node_modules/mongoose/lib/connection.js:1639:11)
+    at async /Users/huoshijie/code/cashier-system/node_modules/@nestjs/mongoose/dist/mongoose-core.module.js:65:112
+[31m[Nest] 78029  - [39m01/28/2026, 2:33:16 AM [31m  ERROR[39m [38;5;3m[MongooseModule] [39m[31mUnable to connect to the database. Retrying (9)...[39m
+MongooseServerSelectionError: connect EPERM ::1:27017 - Local (:::0), connect EPERM 127.0.0.1:27017 - Local (0.0.0.0:0)
+    at _handleConnectionErrors (/Users/huoshijie/code/cashier-system/node_modules/mongoose/lib/connection.js:1169:11)
+    at NativeConnection.asPromise (/Users/huoshijie/code/cashier-system/node_modules/mongoose/lib/connection.js:1639:11)
+    at async /Users/huoshijie/code/cashier-system/node_modules/@nestjs/mongoose/dist/mongoose-core.module.js:65:112
+[31m[Nest] 78029  - [39m01/28/2026, 2:33:16 AM [31m  ERROR[39m [38;5;3m[ExceptionHandler] [39m[31mconnect EPERM ::1:27017 - Local (:::0), connect EPERM 127.0.0.1:27017 - Local (0.0.0.0:0)[39m
+MongooseServerSelectionError: connect EPERM ::1:27017 - Local (:::0), connect EPERM 127.0.0.1:27017 - Local (0.0.0.0:0)
+    at _handleConnectionErrors (/Users/huoshijie/code/cashier-system/node_modules/mongoose/lib/connection.js:1169:11)
+    at NativeConnection.asPromise (/Users/huoshijie/code/cashier-system/node_modules/mongoose/lib/connection.js:1639:11)
+    at async /Users/huoshijie/code/cashier-system/node_modules/@nestjs/mongoose/dist/mongoose-core.module.js:65:112
+[2J[3J[H[[90m2:42:57 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m2:42:57 AM[0m] Found 0 errors. Watching for file changes.
+
+[Redis] connection error: 
+[Redis] initial connect failed: Connection is closed.
+Starting the MongoMemoryServer Instance failed, enable debug log for more information. Error:
+ Error: listen EPERM: operation not permitted 0.0.0.0
+    at Server.setupListenHandle [as _listen2] (node:net:1886:21)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at <anonymous> (/Users/huoshijie/code/cashier-system/node_modules/mongodb-memory-server-core/src/util/getport/index.ts:137:12)
+    at new Promise (<anonymous>)
+    at tryPort (/Users/huoshijie/code/cashier-system/node_modules/mongodb-memory-server-core/src/util/getport/index.ts:122:10)
+    at getFreePort (/Users/huoshijie/code/cashier-system/node_modules/mongodb-memory-server-core/src/util/getport/index.ts:73:29)
+    at MongoMemoryServer.getNewPort (/Users/huoshijie/code/cashier-system/node_modules/mongodb-memory-server-core/src/MongoMemoryServer.ts:401:38)
+    at MongoMemoryServer.getStartOptions (/Users/huoshijie/code/cashier-system/node_modules/mongodb-memory-server-core/src/MongoMemoryServer.ts:445:25)
+    at async MongoMemoryServer._startUpInstance (/Users/huoshijie/code/cashier-system/node_modules/mongodb-memory-server-core/src/MongoMemoryServer.ts:527:49) {
+  code: 'EPERM',
+  errno: -1,
+  syscall: 'listen',
+  address: '0.0.0.0'
+}
+[32m[Nest] 79954  - [39m01/28/2026, 2:42:58 AM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 79954  - [39m01/28/2026, 2:42:58 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 79954  - [39m01/28/2026, 2:42:58 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 79954  - [39m01/28/2026, 2:42:58 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPassportModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 79954  - [39m01/28/2026, 2:42:58 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 79954  - [39m01/28/2026, 2:42:58 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDiscoveryModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 79954  - [39m01/28/2026, 2:42:58 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 79954  - [39m01/28/2026, 2:42:58 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 79954  - [39m01/28/2026, 2:42:58 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mScheduleModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 79954  - [39m01/28/2026, 2:42:58 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mInfraModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 79954  - [39m01/28/2026, 2:42:58 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 79954  - [39m01/28/2026, 2:42:58 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mWinstonModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 79954  - [39m01/28/2026, 2:42:58 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[31m[Nest] 79954  - [39m01/28/2026, 2:42:58 AM [31m  ERROR[39m [38;5;3m[ExceptionHandler] [39m[31mlisten EPERM: operation not permitted 0.0.0.0[39m
+Error: listen EPERM: operation not permitted 0.0.0.0
+    at Server.setupListenHandle [as _listen2] (node:net:1886:21)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at <anonymous> (/Users/huoshijie/code/cashier-system/node_modules/mongodb-memory-server-core/src/util/getport/index.ts:137:12)
+    at new Promise (<anonymous>)
+    at tryPort (/Users/huoshijie/code/cashier-system/node_modules/mongodb-memory-server-core/src/util/getport/index.ts:122:10)
+    at getFreePort (/Users/huoshijie/code/cashier-system/node_modules/mongodb-memory-server-core/src/util/getport/index.ts:73:29)
+    at MongoMemoryServer.getNewPort (/Users/huoshijie/code/cashier-system/node_modules/mongodb-memory-server-core/src/MongoMemoryServer.ts:401:38)
+    at MongoMemoryServer.getStartOptions (/Users/huoshijie/code/cashier-system/node_modules/mongodb-memory-server-core/src/MongoMemoryServer.ts:445:25)
+    at async MongoMemoryServer._startUpInstance (/Users/huoshijie/code/cashier-system/node_modules/mongodb-memory-server-core/src/MongoMemoryServer.ts:527:49)
+[2J[3J[H[[90m3:39:38 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m3:39:39 AM[0m] Found 0 errors. Watching for file changes.
+
+[Redis] connection error: 
+[Redis] initial connect failed: Connection is closed.
+Starting the MongoMemoryServer Instance failed, enable debug log for more information. Error:
+ Error: listen EPERM: operation not permitted 0.0.0.0
+    at Server.setupListenHandle [as _listen2] (node:net:1886:21)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at <anonymous> (/Users/huoshijie/code/cashier-system/node_modules/mongodb-memory-server-core/src/util/getport/index.ts:137:12)
+    at new Promise (<anonymous>)
+    at tryPort (/Users/huoshijie/code/cashier-system/node_modules/mongodb-memory-server-core/src/util/getport/index.ts:122:10)
+    at getFreePort (/Users/huoshijie/code/cashier-system/node_modules/mongodb-memory-server-core/src/util/getport/index.ts:73:29)
+    at MongoMemoryServer.getNewPort (/Users/huoshijie/code/cashier-system/node_modules/mongodb-memory-server-core/src/MongoMemoryServer.ts:401:38)
+    at MongoMemoryServer.getStartOptions (/Users/huoshijie/code/cashier-system/node_modules/mongodb-memory-server-core/src/MongoMemoryServer.ts:445:25)
+    at async MongoMemoryServer._startUpInstance (/Users/huoshijie/code/cashier-system/node_modules/mongodb-memory-server-core/src/MongoMemoryServer.ts:527:49) {
+  code: 'EPERM',
+  errno: -1,
+  syscall: 'listen',
+  address: '0.0.0.0'
+}
+[32m[Nest] 90103  - [39m01/28/2026, 3:39:40 AM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 90103  - [39m01/28/2026, 3:39:40 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 90103  - [39m01/28/2026, 3:39:40 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 90103  - [39m01/28/2026, 3:39:40 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPassportModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 90103  - [39m01/28/2026, 3:39:40 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 90103  - [39m01/28/2026, 3:39:40 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDiscoveryModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 90103  - [39m01/28/2026, 3:39:40 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 90103  - [39m01/28/2026, 3:39:40 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 90103  - [39m01/28/2026, 3:39:40 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mScheduleModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 90103  - [39m01/28/2026, 3:39:40 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mInfraModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 90103  - [39m01/28/2026, 3:39:40 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 90103  - [39m01/28/2026, 3:39:40 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mWinstonModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 90103  - [39m01/28/2026, 3:39:40 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[31m[Nest] 90103  - [39m01/28/2026, 3:39:40 AM [31m  ERROR[39m [38;5;3m[ExceptionHandler] [39m[31mlisten EPERM: operation not permitted 0.0.0.0[39m
+Error: listen EPERM: operation not permitted 0.0.0.0
+    at Server.setupListenHandle [as _listen2] (node:net:1886:21)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at <anonymous> (/Users/huoshijie/code/cashier-system/node_modules/mongodb-memory-server-core/src/util/getport/index.ts:137:12)
+    at new Promise (<anonymous>)
+    at tryPort (/Users/huoshijie/code/cashier-system/node_modules/mongodb-memory-server-core/src/util/getport/index.ts:122:10)
+    at getFreePort (/Users/huoshijie/code/cashier-system/node_modules/mongodb-memory-server-core/src/util/getport/index.ts:73:29)
+    at MongoMemoryServer.getNewPort (/Users/huoshijie/code/cashier-system/node_modules/mongodb-memory-server-core/src/MongoMemoryServer.ts:401:38)
+    at MongoMemoryServer.getStartOptions (/Users/huoshijie/code/cashier-system/node_modules/mongodb-memory-server-core/src/MongoMemoryServer.ts:445:25)
+    at async MongoMemoryServer._startUpInstance (/Users/huoshijie/code/cashier-system/node_modules/mongodb-memory-server-core/src/MongoMemoryServer.ts:527:49)
+lation...
+
+[[90m3:39:39 AM[0m] Found 0 errors. Watching for file changes.
+
+[Redis] connection error: 
+[Redis] initial connect failed: Connection is closed.
+Starting the MongoMemoryServer Instance failed, enable debug log for more information. Error:
+ Error: listen EPERM: operation not permitted 0.0.0.0
+    at Server.setupListenHandle [as _listen2] (node:net:1886:21)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at <anonymous> (/Users/huoshijie/code/cashier-system/node_modules/mongodb-memory-server-core/src/util/getport/index.ts:137:12)
+    at new Promise (<anonymous>)
+    at tryPort (/Users/huoshijie/code/cashier-system/node_modules/mongodb-memory-server-core/src/util/getport/index.ts:122:10)
+    at getFreePort (/Users/huoshijie/code/cashier-system/node_modules/mongodb-memory-server-core/src/util/getport/index.ts:73:29)
+    at MongoMemoryServer.getNewPort (/Users/huoshijie/code/cashier-system/node_modules/mongodb-memory-server-core/src/MongoMemoryServer.ts:401:38)
+    at MongoMemoryServer.getStartOptions (/Users/huoshijie/code/cashier-system/node_modules/mongodb-memory-server-core/src/MongoMemoryServer.ts:445:25)
+    at async MongoMemoryServer._startUpInstance (/Users/huoshijie/code/cashier-system/node_modules/mongodb-memory-server-core/src/MongoMemoryServer.ts:527:49) {
+  code: 'EPERM',
+  errno: -1,
+  syscall: 'listen',
+  address: '0.0.0.0'
+}
+[32m[Nest] 90102  - [39m01/28/2026, 3:39:40 AM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 90102  - [39m01/28/2026, 3:39:40 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 90102  - [39m01/28/2026, 3:39:40 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 90102  - [39m01/28/2026, 3:39:40 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPassportModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 90102  - [39m01/28/2026, 3:39:40 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 90102  - [39m01/28/2026, 3:39:40 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDiscoveryModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 90102  - [39m01/28/2026, 3:39:40 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 90102  - [39m01/28/2026, 3:39:40 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 90102  - [39m01/28/2026, 3:39:40 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mScheduleModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 90102  - [39m01/28/2026, 3:39:40 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mInfraModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 90102  - [39m01/28/2026, 3:39:40 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 90102  - [39m01/28/2026, 3:39:40 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mWinstonModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 90102  - [39m01/28/2026, 3:39:40 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+[31m[Nest] 90102  - [39m01/28/2026, 3:39:40 AM [31m  ERROR[39m [38;5;3m[ExceptionHandler] [39m[31mlisten EPERM: operation not permitted 0.0.0.0[39m
+Error: listen EPERM: operation not permitted 0.0.0.0
+    at Server.setupListenHandle [as _listen2] (node:net:1886:21)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at <anonymous> (/Users/huoshijie/code/cashier-system/node_modules/mongodb-memory-server-core/src/util/getport/index.ts:137:12)
+    at new Promise (<anonymous>)
+    at tryPort (/Users/huoshijie/code/cashier-system/node_modules/mongodb-memory-server-core/src/util/getport/index.ts:122:10)
+    at getFreePort (/Users/huoshijie/code/cashier-system/node_modules/mongodb-memory-server-core/src/util/getport/index.ts:73:29)
+    at MongoMemoryServer.getNewPort (/Users/huoshijie/code/cashier-system/node_modules/mongodb-memory-server-core/src/MongoMemoryServer.ts:401:38)
+    at MongoMemoryServer.getStartOptions (/Users/huoshijie/code/cashier-system/node_modules/mongodb-memory-server-core/src/MongoMemoryServer.ts:445:25)
+    at async MongoMemoryServer._startUpInstance (/Users/huoshijie/code/cashier-system/node_modules/mongodb-memory-server-core/src/MongoMemoryServer.ts:527:49)

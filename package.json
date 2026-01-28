@@ -1,0 +1,21 @@
+{
+  "name": "cashier-workspace",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "admin",
+    "cashier",
+    "server"
+  ],
+  "scripts": {
+    "dev:server": "npm --workspace=server run start:dev",
+    "dev:admin": "npm --workspace=admin run dev",
+    "dev:cashier": "npm --workspace=cashier run dev",
+    "dev:all": "concurrently -n server,admin,cashier -c cyan,magenta,green \"npm run dev:server\" \"npm run dev:admin\" \"npm run dev:cashier\"",
+    "dev:external-biz": "node external-demo/server.mjs",
+    "bootstrap": "npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
